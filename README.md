@@ -9,21 +9,28 @@ A preliminary analysis of a typical 2-3-4 Potential was performed, using the WKB
 
 
 ### Code descriptions:
-\begin{enumerate}
-\renewcommand{\labelenumii}{\arabic{enumii}}
-    \item{.} WKB Approximation for quartic potential
-    \item{.} Bounce Approximation for static quartic potential
-    \item{.} Bounce Approximation for general static potential
-    \item{.} 2-3-4 Potential
-    \begin{itemize}
-        \item{.} Var\textunderscore Quar\textunderscore Pot\textunderscore Act
-        \item{.} S vs. alpha - comparisons        
-        \item{.} Act\textunderscore Temp
-        \item{.} S vs. T - brute force method
-        \item{.} S vs. alpha - template
-        \item{.} Act\textunderscore Temp\textunderscore quick
-        \item{.} S vs. T - quick method
-        \item{.} Tunneling Rate vs. Hubble Rate
-    \end{itemize}
-    \item{.} 2-4-6 Potential
-\end{enumerate}
+1. WKB Approximation for quartic potential - Finds wave function (and related probability density) for the quartic potential $\mu^{2} \phi^{2} - A \phi^{3} + \lambda \phi^{4}$, where $A$ > 2 $\mu \sqrt{\lambda}$
+
+2. Bounce Approximation for static quartic potential - 
+
+3. Bounce Approximation for general static potential
+
+4. 2-3-4 Potential
+
+    Var_Quar_Pot_Act
+    
+    S vs. alpha - comparisons  
+    
+    Act_Temp
+    
+    S vs. T - brute force method
+    
+    S vs. alpha - template
+    
+    Act_Temp_quick
+    
+    S vs. T - quick method
+    
+    Tunneling Rate vs. Hubble Rate
+
+5. 2-4-6 Potential - Same as 2-3-4 Potential, except with minimal explanations
