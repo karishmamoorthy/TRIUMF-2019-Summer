@@ -33,4 +33,4 @@ A preliminary analysis of a typical 2-3-4 Potential was performed, using the WKB
     
     4.8.   *Tunneling Rate vs. Hubble Rate* - Uses 4.6.; Takes in dimensionful parameters (alpha, Lambda and v) for a quartic potential at T = 0, and returns gravitational wave spectra parameters; and compares the rates and parameters.
 
-5.  ***2-4-6 Potential*** - Same as 2-3-4 Potential, except for a 2-4-6 Potential (with similar parametrization).
+5.  ***2-4-6 Potential*** - Same as 2-3-4 Potential, except for a 2-4-6 Potential (with similar parametrization)
