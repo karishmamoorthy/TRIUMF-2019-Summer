@@ -31,6 +31,8 @@ A preliminary analysis of a typical 2-3-4 Potential was performed, using the WKB
 
     4.7.   *S vs. T - quick method* - Uses 4.6. and compares it to 4.2. -> shows the same result as 4.4. except is WAY quicker and easier to work with
 
-    4.8.   *Tunneling Rate vs. Hubble Rate* - Uses 4.6.; Takes in dimensionful parameters (alpha, Lambda and v) for a quartic potential at T = 0, and returns gravitational wave spectra parameters; and compares the rates and parameters.
+    4.8.   *Tunneling Rate vs. Hubble Rate* - Uses 4.6.; Takes in dimensionful parameters (alpha, Lambda and v) for a quartic potential at T = 0, and returns GW spectra parameters; compares the rates.
+    
+    4.9.   *Illustrative plots* - Uses 4.6.; Shows general trends of 2-3-4 Potentials and their respective GW spectra parameters.
 
 5.  ***2-4-6 Potential*** - Same as 2-3-4 Potential, except for a 2-4-6 Potential (with similar parametrization)

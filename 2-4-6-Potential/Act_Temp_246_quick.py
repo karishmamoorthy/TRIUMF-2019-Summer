@@ -14,7 +14,7 @@ def theory(alpha_theory, Lambda_theory, v_theory, dof=3, T_start=None, resolutio
     
     Returns 
     T_dim_array, S_dim_array, tunneling_probability, hubble_rate, 
-    nucleation_temperature, beta_by_H_at_N, alpha_latent_at_N, field_energy_density_at_N
+    nucleation_temperature, beta_by_H_at_N, alpha_latent_at_N, field_energy_density_at_0
     
     Assuming units of Lambda_theory and v_theory is in GeV
     
@@ -234,4 +234,6 @@ def theory(alpha_theory, Lambda_theory, v_theory, dof=3, T_start=None, resolutio
     
     #g_star_at_N = g_star(nucleation_temperature)
     
-    return T_dim_array[1:], S_dim_array[1:], tunneling_probability, hubble_rate, nucleation_temperature, beta_by_H_at_N, alpha_latent_at_N, field_energy_density_at_N
+    field_energy_density_at_0 = 2*(Lambda_theory**4)*(alpha_theory - 0.5)
+    
+    return T_dim_array[1:], S_dim_array[1:], tunneling_probability, hubble_rate, nucleation_temperature, beta_by_H_at_N, alpha_latent_at_N, field_energy_density_at_0
