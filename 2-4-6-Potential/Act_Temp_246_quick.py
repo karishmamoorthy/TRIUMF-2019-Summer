@@ -13,8 +13,8 @@ def theory(alpha_theory, Lambda_theory, v_theory, dof=3, T_start=None, resolutio
     of bubbles can catch up to Hubble rate i.e.
     
     Returns 
-    T_dim_array, S_dim_array, tunneling_probability, hubble_rate, 
-    nucleation_temperature, beta_by_H_at_N, alpha_latent_at_N, field_energy_density_at_0
+    T_dim_array, S_dim_array, tunneling_probability, hubble_rate, nucleation_temperature, 
+    beta_by_H_at_N, alpha_latent_at_N, field_energy_density_at_0, alpha_v_eff_at_N
     
     Assuming units of Lambda_theory and v_theory is in GeV
     
@@ -234,6 +234,8 @@ def theory(alpha_theory, Lambda_theory, v_theory, dof=3, T_start=None, resolutio
     
     #g_star_at_N = g_star(nucleation_temperature)
     
+    alpha_v_eff_at_N = lam_theory*x_pit_sq_N/A_theory
+    
     field_energy_density_at_0 = 2*(Lambda_theory**4)*(alpha_theory - 0.5)
     
-    return T_dim_array[1:], S_dim_array[1:], tunneling_probability, hubble_rate, nucleation_temperature, beta_by_H_at_N, alpha_latent_at_N, field_energy_density_at_0
+    return T_dim_array[1:], S_dim_array[1:], tunneling_probability, hubble_rate, nucleation_temperature, beta_by_H_at_N, alpha_latent_at_N, field_energy_density_at_0, alpha_v_eff_at_N
