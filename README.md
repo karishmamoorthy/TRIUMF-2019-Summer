@@ -1,12 +1,13 @@
 # TRIUMF-2019-Summer
 This is from my work on 'Cosmic Phase Transitions as a Source of Gravitational Waves'.
 
+#### {Full Report in this repository -> 'Cosmic Phase transitions as a source of Gravitational waves - TRIUMF Report, Summer 2019'}
+
 My code(s) can take in the parameters of the Theory of a given field undergoing a first-order phase transition, and return the parameters conventionally used to find the gravitational wave power spectra.
 
 To do this, the Bubble (or Bounce) approximation was used i.e. the Stationary Phase approximation was applied to the Path Integral of the field tunneling from False to True Vacuum, and the **Instanton Solution** found this way, was used.
 
 A preliminary analysis of a typical 2-3-4 Potential was performed, using the WKB Approximation; this was primarily to build intuition and familiarize oneself with different aspects of the problem at hand.
-
 
 ### Code descriptions:
 1.  *WKB Approximation for quartic potential* - Finds wave function (and related probability density) for a quartic potential with 2 pits (with one at the origin & x > 0), using the WKB approximation.
@@ -19,7 +20,7 @@ A preliminary analysis of a typical 2-3-4 Potential was performed, using the WKB
     
     4.1.   *S vs. alpha - comparisons* - Compares different module-versions of 3., for different approximations specific to quartic potentials
 
-    4.2.   *Var_Quar_Pot_Act* - The final best version of 3., that takes *any* dimensionless quartic potential with 2 pits, and returns the Euclidean action for it.
+    4.2.   *Var_Quar_Pot_Act* - The final best version of 3., that takes *any* dimensionless quartic potential with 2 pits, and returns the Euclidean action for it. Other versions are *Var_Quar_Pot_Act_1*, *Var_Quar_Pot_Act_2*, *Var_Quar_Pot_Act_3* and *Var_Quar_Pot_Act_eps*
 
     4.3.   *Act_Temp* - Takes in dimensionful parameters for a quartic potential at T = 0, uses 4.2., returns action for each temperature between T = T_critical and T = 0.
 
@@ -34,5 +35,7 @@ A preliminary analysis of a typical 2-3-4 Potential was performed, using the WKB
     4.8.   *Tunneling Rate vs. Hubble Rate* - Uses 4.6.; Takes in dimensionful parameters (alpha, Lambda and v) for a quartic potential at T = 0, and returns GW spectra parameters; compares the rates.
     
     4.9.   *Illustrative plots* - Uses 4.6.; Shows general trends of 2-3-4 Potentials and their respective GW spectra parameters.
+    
+    All the text files and other folders are connected to the above .pynb and .py files.
 
 5.  ***2-4-6 Potential*** - Same as 2-3-4 Potential, except for a 2-4-6 Potential (with similar parametrization)
