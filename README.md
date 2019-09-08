@@ -1,7 +1,7 @@
 # TRIUMF-2019-Summer
 This is from my work on 'Cosmic Phase Transitions as a Source of Gravitational Waves'.
 
-#### {Full Write-up in this repository -> 'Cosmic Phase transitions as a source of Gravitational waves - TRIUMF Report, Summer 2019'}
+#### {Full write-up in this repository -> 'Cosmic Phase transitions as a source of Gravitational waves - TRIUMF Report, Summer 2019'}
 
 My code(s) can take in the parameters of the Theory of a given field undergoing a first-order phase transition, and return the parameters conventionally used to find the gravitational wave power spectra.
 
